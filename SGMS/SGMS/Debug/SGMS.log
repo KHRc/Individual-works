@@ -1,0 +1,77 @@
+﻿  Management_System.cpp
+E:\C_space\SGMS\SGMS\Management_System.cpp(62,18): error C2679: 二元“>>”: 没有找到接受“STU”类型的右操作数的运算符(或没有可接受的转换)
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(299,39): message : 可能是“std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(295,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(291,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(287,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(283,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(279,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(275,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(271,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(267,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(263,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(255,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(251,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(219,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(215,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(186,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(181,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\istream(176,39): message : 或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))”
+E:\C_space\SGMS\SGMS\Management_System.cpp(62,18): message : 尝试匹配参数列表“(std::istream, STU)”时
+E:\C_space\SGMS\SGMS\Management_System.cpp(173,21): error C2679: 二元“<<”: 没有找到接受“STU”类型的右操作数的运算符(或没有可接受的转换)
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(464,39): message : 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(439,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(421,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(403,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(385,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(367,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(349,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(331,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(313,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(294,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(268,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(249,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(215,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(197,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(192,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(187,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(182,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+E:\C_space\SGMS\SGMS\Management_System.cpp(173,21): message : 尝试匹配参数列表“(std::ostream, STU)”时
+E:\C_space\SGMS\SGMS\Management_System.cpp(209,22): error C2679: 二元“<<”: 没有找到接受“STU”类型的右操作数的运算符(或没有可接受的转换)
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(464,39): message : 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(439,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(421,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(403,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(385,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(367,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(349,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(331,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(313,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(294,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(268,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(249,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(215,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(197,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(192,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(187,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(182,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+E:\C_space\SGMS\SGMS\Management_System.cpp(209,22): message : 尝试匹配参数列表“(std::ostream, STU)”时
+E:\C_space\SGMS\SGMS\Management_System.cpp(236,21): error C2679: 二元“<<”: 没有找到接受“STU”类型的右操作数的运算符(或没有可接受的转换)
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(464,39): message : 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(439,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(421,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(403,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(385,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(367,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(349,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(331,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(313,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(294,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(268,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(249,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(215,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(197,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(192,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(187,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\ostream(182,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+E:\C_space\SGMS\SGMS\Management_System.cpp(236,21): message : 尝试匹配参数列表“(std::ostream, STU)”时
